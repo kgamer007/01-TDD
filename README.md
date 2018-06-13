@@ -12,13 +12,6 @@
 ## Configuration
 Configure the root of your repository with the following files and directories. Thoughtfully name and organize any additional configuration or module files.
 
-* **README.md** - contains your documentation
-* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file
-* **.eslintrc.json** - contains the course linter configuration
-* **.eslintignore** - contains the course linter ignore configuration
-* **lib/** - contains module definitions
-* **__test__/** - contains unit tests
-
 ## Testing
 
 ### Greet Module Tests
@@ -48,4 +41,8 @@ Create a NodeJS module in the `lib` directory named `arithmetic.js`. This module
   * `else` return the second parameter subtracted from the first parameter
 
 ### Documentation
-In your README.md file, describe the exported values of each module defined in your `lib` directory. Every function description should include it's airty (expected number of parameters), the expected data for each parameter (data-type and limitations), and the expected output behavior (for both valid and invalid use). Feel free to include any additional information that you would like.
+Both exported values of each module(file) are grabbing info from node.js. 
+
+In the arithmetic.js there were two functions that were being asked. One was addition and one was subtraction. Both functions included two arguments within the parameters. The expected data type for each function are numbers. The expected output behavior for these functions are adding two different and subtracting two different numbers. 
+
+In the greet.js there are two functions as well however in this assignment one function was needed to perform a string data type. The parameter includes only one. The expected output behavior should return a string. 
